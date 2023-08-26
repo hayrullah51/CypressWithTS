@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runner": "cypress open --e2e --browser chrome"
+    "runner": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com --env demoVar=Hello_From_Package_File"
   },
   "keywords": [
     "cypress",
@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.17.4",
+    "cypress-real-events": "^1.10.0",
     "typescript": "^5.1.6"
   },
   "dependencies": {
