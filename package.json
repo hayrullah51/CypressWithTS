@@ -1,7 +1,6 @@
 {
   "name": "cypressts_udemy",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "runner": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com --env demoVar=Hello_From_Package_File"
@@ -15,11 +14,20 @@
   "author": "Hayrullah DEDELER",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.4",
+    "cypress": "^13.1.0",
     "cypress-real-events": "^1.10.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "@cypress/xpath": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayrullah51/CypressWithTS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hayrullah51/CypressWithTS/issues"
+  },
+  "homepage": "https://github.com/hayrullah51/CypressWithTS#readme",
+  "description": ""
 }
