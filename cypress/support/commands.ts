@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+require('cy-verify-downloads').addCustomCommand();
 // ***********************************************
 // This example commands.ts shows you how to
 // create various custom commands and overwrite
@@ -35,3 +36,5 @@
 //     }
 //   }
 // }
+import 'cypress-file-upload';
+import 'cy-verify-downloads';

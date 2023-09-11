@@ -14,12 +14,15 @@
   "author": "Hayrullah DEDELER",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.1.0",
+    "cy-verify-downloads": "^0.1.17",
+    "cypress-file-upload": "^5.0.8",
     "cypress-real-events": "^1.10.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@cypress/xpath": "^2.0.3"
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.17.4",
+    "cypress-plugin-xhr-toggle": "^1.0.0"
   },
   "repository": {
     "type": "git",

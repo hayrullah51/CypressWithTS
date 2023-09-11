@@ -17,7 +17,8 @@
 import "./commands";
 import "cypress-real-events";
 import "./exceptions";
+import 'cypress-plugin-xhr-toggle'
+require('cy-verify-downloads').addCustomCommand();
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-require("@cypress/xpath");
